@@ -68,6 +68,9 @@ COPY nginx.conf /etc/nginx/nginx.conf
 4. Building the Docker Image:
 
    - Build the Docker image using the `Dockerfile`.
+```
+docker build -t custom_webserver:v1 -f dockerfile .
+```
 
 5. Push the image on ECR
 
