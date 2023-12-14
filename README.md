@@ -26,6 +26,15 @@ sudo apt install nginx -y
 ```
 ![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/56b629de-10fe-47bd-b7c5-cf4294788706)
 
+Clone the repo on this node by running
+
+```
+sudo git clone https://github.com/adm077/Dockerizing_Custom_Webserver.git
+
+```
+
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/3fb69ced-5790-4828-8492-b763537308b3)
+
 
 1. Basic HTML Page:
 
