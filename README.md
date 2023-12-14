@@ -114,6 +114,9 @@ docker build -t custom_webserver:v1 -f dockerfile .
 
 ![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/8b4e0691-e9fb-429e-871d-67ef5a046dd5)
 
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/1d8d01c9-bb80-4c8d-afa1-9a81f8e9087d)
+
+
 ![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/fab7c057-27a7-4689-b0fc-9e4fe9cfa2ae)
 
 Commands History which I have used to perform this
