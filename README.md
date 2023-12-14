@@ -57,6 +57,14 @@ http {
 
    - Ensure that the Nginx server is started when the container is run.
 
+```
+#---------------------------Dockerfile----------------------#
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+COPY nginx.conf /etc/nginx/nginx.conf
+#-----------------------------------------------------------#
+```
+
 4. Building the Docker Image:
 
    - Build the Docker image using the `Dockerfile`.
