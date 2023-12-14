@@ -101,6 +101,9 @@ COPY nginx.conf /etc/nginx/nginx.conf
 docker build -t custom_webserver:v1 -f dockerfile .
 ```
 
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/5c6962c0-399d-4239-a494-675ee2a06c96)
+
+
 5. Push the image on ECR
 
   - Make the public repository and push them on the ECR
@@ -109,4 +112,35 @@ docker build -t custom_webserver:v1 -f dockerfile .
 
 ![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/088590fe-1385-4010-9c29-5fa945ef6c14)
 
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/8b4e0691-e9fb-429e-871d-67ef5a046dd5)
+
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/fab7c057-27a7-4689-b0fc-9e4fe9cfa2ae)
+
+Commands History which I have used to perform this
+
+```
+ubuntu@ip-172-31-12-178:~/Dockerizing_Custom_Webserver$ history
+    1  sudo apt update 
+    2  sudo apt install docker.io -y
+    3  systemctl status docker.service 
+    4  sudo apt install nginx -y
+    5  systemctl status nginx.service 
+    6  sudo git clone https://github.com/adm077/Dockerizing_Custom_Webserver.git
+    7  ls
+    8  cd Dockerizing_Custom_Webserver/
+    9  ls
+   10  sudo apt  install awscli
+   11  aws configure
+   12  sudo docker login 
+   13  sudo docker build -t custom_webserver:v1 -f dockerfile .
+   14  sudo docker images
+   15  sudo docker run -it -d -p 8080:80 custom_webserver:v1
+   16  sudo docker ps
+   17  aws ecr-public get-login-password --region us-east-1 | sudo  docker login --username AWS --password-stdin public.ecr.aws/c3w1m1q2
+   18  sudo docker images
+   19  sudo docker tag custom_webserver:v1 public.ecr.aws/c3w1m1q2/israr-dockerizing-custom-webserver:latest
+   20  sudo docker push public.ecr.aws/c3w1m1q2/israr-dockerizing-custom-webserver:latest
+   21  history
+ubuntu@ip-172-31-12-178:~/Dockerizing_Custom_Webserver$ 
+```
 
