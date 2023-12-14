@@ -32,6 +32,21 @@ Requirements:
 
    - Configure Nginx to listen on port 80.
 
+```
+#-----------------------------nginx.conf-------------------------#
+events {}
+http {
+    server {
+        listen 80;
+        location / {
+            root /usr/share/nginx/html;
+            index index.html;
+        }
+    }
+}
+#----------------------------------------------------------------#
+```
+
 3. Dockerfile:
 
    - Create a `Dockerfile` to define the Docker image.
