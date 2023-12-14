@@ -11,21 +11,7 @@ Requirements:
 
    - Create a plain HTML page named `index.html` with some content (e.g., "Hello, Docker!").
 
-'
-#------------------index.html---------------------------------------------#
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hello, Docker!</title>
-</head>
-<body>
-    <h1>Hello, Docker!</h1>
-    <p>This is a plain HTML page served by Nginx in a Docker container.</p>
-</body>
-</html>
-#--------------------------------------------------------------------------#
 
-'
 
 2. Nginx Configuration:
 
