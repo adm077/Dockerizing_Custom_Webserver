@@ -6,6 +6,7 @@ Objective:
 The objective of this assignment is to familiarize yourself with Docker and containerization by Dockerizing a simple HTML page using Nginx as the web server.
 
 Requirements:
+
 I have used an EC2 instance for this task.
 
 ![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/6032a0fc-cc75-408c-b5a0-376678a76702)
