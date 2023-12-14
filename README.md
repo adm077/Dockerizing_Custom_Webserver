@@ -104,3 +104,9 @@ docker build -t custom_webserver:v1 -f dockerfile .
 5. Push the image on ECR
 
   - Make the public repository and push them on the ECR
+
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/a5a41e28-85ea-4645-9d3a-d92750ca4a47)
+
+![image](https://github.com/adm077/Dockerizing_Custom_Webserver/assets/139608052/088590fe-1385-4010-9c29-5fa945ef6c14)
+
+
